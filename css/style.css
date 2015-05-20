@@ -1,0 +1,54 @@
+.files {
+    height: 95%;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    list-style-type: none;
+}
+
+.mini-icon {
+    position: relative;
+    top: 2px;
+    left: -5px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+}
+
+.directory {
+    background-image: url('/img/dir.png');
+}
+
+.text-file {
+    background-image: url('/img/txt.png');
+}
+
+.name {
+    float: left;
+    width: 35%;
+}
+
+.size {
+    float: left;
+    width: 16%;
+    margin-right: 27px;
+    text-align: right;
+}
+
+.owner {
+    display: inline-block;
+    width: 14%;
+    vertical-align: top;
+}
+
+.mode {
+    float: right;
+    width: 23%;
+}
+
+.reduce-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
