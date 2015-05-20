@@ -6,7 +6,7 @@ var app = app || {};
     /* global Backbone */
     var Files           = Backbone.Collection.extend({
             model: app.File,
-            path: '',
+            path: '/',
             
             url: function() {
                 return '/api/v1/fs' + this.path;
